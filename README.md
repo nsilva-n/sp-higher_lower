@@ -1,4 +1,4 @@
-# Higher_lower
+# Higher or lower
 
 *Oh, restless soul in search of digital glory,  
 Hear now a tale not of curriculum’s march,  
