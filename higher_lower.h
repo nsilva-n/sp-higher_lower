@@ -6,7 +6,7 @@
 /*   By: nsilva-n <nsilva-n@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/23 11:29:41 by nsilva-n          #+#    #+#             */
-/*   Updated: 2025/05/23 12:58:20 by nsilva-n         ###   ########.fr       */
+/*   Updated: 2025/05/23 14:29:33 by nsilva-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,11 +31,12 @@ typedef struct s_data
 	int	current_num;
 	int	next_num;
 	int	input;
-}			t_data;
+	int	max_number;
+}		t_data;
 
 bool	ft_compare(void);
 int		ft_getcha(void);
-void	ft_glob_init(void);
+void	ft_glob_init(bool has_range, char **av);
 bool	ft_isvalidinput(void);
 t_data	*glob(void);
 
