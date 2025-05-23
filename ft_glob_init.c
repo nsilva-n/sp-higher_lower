@@ -6,7 +6,7 @@
 /*   By: nsilva-n <nsilva-n@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/23 12:55:39 by nsilva-n          #+#    #+#             */
-/*   Updated: 2025/05/23 14:27:25 by nsilva-n         ###   ########.fr       */
+/*   Updated: 2025/05/23 14:45:24 by nsilva-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	ft_glob_init(bool has_range, char **av)
 	init->score = 0;
 	init->next_num = 0;
 	init->input = 0;
-	if (!max_range)
+	if (max_range < 2)
 		init->max_number = 10;
 	else
 		init->max_number = max_range;
