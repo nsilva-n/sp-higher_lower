@@ -96,6 +96,18 @@ To begin your adventure:
 
 ---
 
+## Customization
+
+*Shape the challenge to your will:*
+
+- When launching the game, you may be propelled to set the range:
+```bash
+./higher_lower 27
+```
+- The game then uses this range for all random numbers.
+
+---
+
 ## Acknowledgments
 
 *Though no master nor curriculum gave this quest,  
