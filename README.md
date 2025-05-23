@@ -1,9 +1,9 @@
 # Higher or lower
 
-*Oh, restless soul in search of digital glory,  
-Hear now a tale not of curriculum’s march,  
-But of one coder’s quest—by leisure, not decree—  
-To build a game where numbers rise and arch.*
+*Oh, restless voyager on digital seas,  
+Pause here and heed a tale of chance and code—  
+For not in classrooms bound, nor by masters’ decree,  
+But by the hand of freedom was this game bestowed.*
 
 ---
 
@@ -28,13 +28,14 @@ You chase the secret digit evermore.
 - [Requirements](#requirements)
 - [Getting Started](#getting-started)
 - [Gameplay](#gameplay)
+- [Customization](#customization)
 - [Acknowledgments](#acknowledgments)
 
 ---
 
 ## The Quest
 
-*Take heart, brave user, for rules are few and fate is fickle:*
+*Step forth, brave challenger, and test thy fate:*
 
 - The program picks a number, shrouded from your sight.
 - You, the challenger, must guess: will the next be less, or more?
@@ -51,6 +52,7 @@ You chase the secret digit evermore.
 - **Interactive Prompt**: Hints and guidance at each turn.
 - **Score Tracking**: Record your triumphs and defeats.
 - **Replayability**: No two games alike, as luck and logic entwine.
+- **Customizable Range**: Set maximum! Make it easy or cruelly hard.
 
 ---
 
@@ -86,10 +88,11 @@ To begin your adventure:
 > “O mortal! Guess now if the number ascends or falls—  
 > And may fortune’s winds be ever at your back.”
 
-1. The game will prompt you with a starting number.
-2. You must predict if the next will be higher (`h`) or lower (`l`).
-3. Each guess brings new chances for glory or defeat.
-4. Dare to play again, or rest content with your legend.
+1. If chosen, the desired range will be set.
+2. The game will prompt you with a starting number.
+3. You must predict if the next will be higher (`h`) or lower (`l`).
+4. Each guess brings new chances for glory or defeat.
+5. Dare to play again, or rest content with your legend.
 
 ---
 
